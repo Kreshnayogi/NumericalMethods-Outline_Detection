@@ -55,7 +55,7 @@ def edge_detection(gray_image):
     return edges
 
 # Path to the image file on Google Drive
-rgb_image_path = 'Outline numed/cow.jpg'
+rgb_image_path = 'NumericalMethods-Outline_Detection/cow.jpg'
 
 # Read the RGB image
 rgb_image = cv2.imread(rgb_image_path)
